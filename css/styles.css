@@ -262,17 +262,20 @@ background: #FFF;
   }
 }
 
-#hero-banner{
+#hero-banner {
   overflow: hidden;
-  height: 700px;
-  background: url('../images/banner/banner.jpg');
-  background-size:cover;
-  color:#fff;
+  height: 500px;
+  background: url('../images/banner/banner.png');
+  background-size: 60% auto; /* Largura reduzida para 60% | altura automática */
+  background-position: 300px center; /* Alinha à esquerda e centraliza verticalmente */
+  background-repeat: no-repeat; /* Evita repetição */
+  color: #fff;
+  
 }
 #hero-banner.item {
   height: 558px;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 5% 0;
   background-size: cover;
 }
 #hero-banner.banner-inner {
@@ -291,7 +294,7 @@ background: #FFF;
   text-align: right;  
 }
 #hero-banner h2 b{
-color:#F9690E;
+color:#000;
 }
 #hero-banner p { 
   font-size: 22px; 
@@ -312,8 +315,8 @@ text-align: center;
 width: 150px;
 margin: 0 auto;
 display: block;
-background: #F9690E;
-border: 2px solid #F9690E;
+background: #000;
+border: 2px solid #000;
 color: #FFF;
 }
 #hero-banner.banner-inner h2 > span {
@@ -369,7 +372,7 @@ color: #FFF;
   position: relative;
   background: #FFFFFF;
   border-radius: 0 0 20px 0;
-  border: #F9690B 2px solid;
+  border: #000 2px solid;
 }
 .media.service-box .pull-left {
   margin-right: 20px;
@@ -591,8 +594,16 @@ margin: 0 8px;
 #about .column-title{
 color:#fff;
 }
+/* Novo estilo para o destaque */
+#about .texto-destaque {
+  background-color: #F9690E; /* Laranja */
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  display: inline; /* Para não quebrar a linha */
+}
 #about p{
-color:#fff;
+color:#333333;
 }
 #about .listarrow li{
 color:#fff;
