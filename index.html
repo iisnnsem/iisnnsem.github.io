@@ -108,13 +108,16 @@
             vertical-align: middle;
         }
 	hero-banner {
-	    padding: 0;
-	    margin: 0;
-	    height: 2000px; /* ou o valor que quiser */
+	    padding: 0 !important;
+	    margin: 0 !important;
+	    height: 2000px !important;
+	    overflow: hidden !important
 	}
 	hero-banner img {
-	    width: 100%;
-	    height: 100%;
+	    width: 100% !important;
+	    height: 100% !important;
+	    object-fit: cover !important;
+    	    display: block !important;
 	}
     </style>
 </head> 
@@ -152,7 +155,7 @@
     </header><!--/header-->
 
 <section id="hero-banner">
-<img src="images/banner/banner4.png" alt="Banner principal" >
+<img src="images/banner/banner4.png" alt="" >
 </section><!--/#main-slider-->
 
 
