@@ -144,6 +144,32 @@
 	#testimonial .section-header p {
 	    font-size: 20px; 
   	}
+	#white-banner {
+	    background-color: white;
+	    padding: 30px 0;
+	    text-align: center;
+	    margin-top: 70px;
+	    margin-bottom: 30px;
+	    overflow: hidden;
+	}
+
+	#white-banner img {
+	    width: 100%;
+	    max-width: 1200px;
+	    height: auto;
+	    object-fit: contain;
+	    display: block;
+	    margin: 0 auto;
+	}
+	@media (max-width: 576px) {
+    	    	#white-banner {
+		        height: auto; /* Deixa a altura automática para não cortar */
+		        padding: 20px 10px;
+   		}
+    		#white-banner img {
+        		max-width: 100%;
+    		}
+	}
     </style>
 </head> 
 
@@ -180,8 +206,8 @@
 
 <!-----------------------------------/#Logo------------------------------------------>
 	
-<section id="white-banner" style="background-color: white; height: 400px; overflow: hidden; padding: 30px 0; text-align: center; margin-top: 70px; margin-bottom: 30px;">
-    <img src="images/banner/banner6.png" alt="" style="max-width: 175%; height: auto; object-fit: contain; display: block; margin: 0 auto;">
+<section id="white-banner" style="background-color: white; height: 500px; overflow: hidden; padding: 30px 0; text-align: center; margin-top: 70px; margin-bottom: 30px;">
+    <img src="images/banner/banner6.png" alt="" style="width: 100%; max-width: 1200px; height: auto; object-fit: contain; display: block; margin: 0 auto;">
 </section>
 	
 <!-----------------------------------/#About------------------------------------------>
