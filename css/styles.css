@@ -689,14 +689,15 @@ color:#fff;
 .single-testimonial img{
 	border-radius: 50%;
 	opacity: 1;
-	width: 125px;   /* ajuste conforme necessário */
-   	height: 125px;  /* opcional, mantém proporção */
+	width: 100px;   /* ajuste conforme necessário */
+   	height: 100px;  /* opcional, mantém proporção */
     	object-fit: cover; /* mantém o corte redondo sem distorcer */
 }
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 18px;
-	color: #F9690E;
+	color: #FFFFFF;
+	background: #F9690E;
 }
  
 .progress {
