@@ -854,12 +854,6 @@ color: #FFFFFF;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
 }
-.row {
-  display: flex;
-  justify-content: center; /* centraliza horizontalmente */
-  flex-wrap: wrap; /* para manter responsividade e permitir quebra */
-  gap: 20px; /* opcional, espaço entre os itens */
-}
 
 #contact-us {
   padding: 100px 0 10px;
