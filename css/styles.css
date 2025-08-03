@@ -689,8 +689,8 @@ color:#fff;
 .single-testimonial img{
 	border-radius: 50%;
 	opacity: 1;
-	width: 100px;   /* ajuste conforme necessário */
-   	height: 100px;  /* opcional, mantém proporção */
+	width: 125px;   /* ajuste conforme necessário */
+   	height: 125px;  /* opcional, mantém proporção */
     	object-fit: cover; /* mantém o corte redondo sem distorcer */
 }
 .single-testimonial h5{
@@ -780,9 +780,6 @@ margin: 0;
   border-radius: 100px;
   margin-bottom: 20px;
 }
-
-
-
 #pricing {
   padding: 100px 0 70px;
 }
@@ -854,7 +851,6 @@ color: #FFFFFF;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
 }
-
 #contact-us {
   padding: 100px 0 10px;
 }
