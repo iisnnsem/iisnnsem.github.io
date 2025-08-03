@@ -859,6 +859,13 @@ color: #FFFFFF;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #FFFFFF;
 }
+
+#pricing .row {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* espaço entre os cards (opcional) */
+}
+
 #contact-us {
   padding: 100px 0 10px;
 }
