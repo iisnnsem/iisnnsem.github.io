@@ -262,6 +262,10 @@ background: #FFF;
   }
 }
 
+#submit .listarrow li i {
+  color: #FFFFFF;
+}
+
 #hero-banner {
   overflow: hidden;
   height: 500px;
@@ -706,6 +710,7 @@ color:#fff;
 	font-size: 18px;
 	color: #FFFFFF;
 	background: transparent;
+	font-weight: normal;
 }
 
 .progress {
