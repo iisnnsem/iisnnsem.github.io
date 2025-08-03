@@ -137,7 +137,7 @@ border-radius: 0;
 }
 
 .navbar-nav>li>a {
-text-transform: uppercase;
+text-transform: lowercase;
 }
 @-webkit-keyframes scaleIn {
   0% {
@@ -608,6 +608,8 @@ color:#333333;
 #about .listarrow li{
 color:#fff;
 }
+
+
 /*Team*/ 
 #our-team {
   padding: 100px 0;
@@ -620,7 +622,7 @@ color:#fff;
 }
 #our-team .team-member .team-info { 
   background: #222222;
-  color: #BBBBBB;
+  color: #F9690E;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
@@ -667,12 +669,10 @@ color:#fff;
 	-webkit-transition:all .5s ease;
 	-moz-transition:all .5s ease;
 	transition:all .5s ease;
-	font-size: 14px;
+	font-size: 18px;
 	background: rgba(0, 0, 0, 0.39);
-
 	color: #919191;
-line-height: 22px;
-
+	line-height: 22px;
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.39);
 }
@@ -689,10 +689,13 @@ line-height: 22px;
 .single-testimonial img{
 	border-radius: 50%;
 	opacity: 1;
+	width: 150px;   /* ajuste conforme necessário */
+   	height: 150px;  /* opcional, mantém proporção */
+    	object-fit: cover; /* mantém o corte redondo sem distorcer */
 }
 .single-testimonial h5{
 	padding: 8px 0 0px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #F9690E;
 }
  
@@ -831,7 +834,7 @@ li.plan-purchase .btn {
   color: #5A5A5A;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 #pricing ul.pricing.featured {
   background: #151515; 
@@ -884,8 +887,8 @@ width: 100px;
 ********* Footer ******
 ************************/
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
   background: #222222;
 }
