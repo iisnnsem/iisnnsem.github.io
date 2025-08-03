@@ -688,7 +688,7 @@ line-height: 22px;
 }
 .single-testimonial img{
 	border-radius: 50%;
-	opacity: 0.6;
+	opacity: 1;
 }
 .single-testimonial h5{
 	padding: 8px 0 0px;
