@@ -137,7 +137,7 @@ border-radius: 0;
 }
 
 .navbar-nav>li>a {
-text-transform: lowercase;
+
 }
 @-webkit-keyframes scaleIn {
   0% {
@@ -689,8 +689,8 @@ color:#fff;
 .single-testimonial img{
 	border-radius: 50%;
 	opacity: 1;
-	width: 150px;   /* ajuste conforme necessário */
-   	height: 150px;  /* opcional, mantém proporção */
+	width: 125px;   /* ajuste conforme necessário */
+   	height: 125px;  /* opcional, mantém proporção */
     	object-fit: cover; /* mantém o corte redondo sem distorcer */
 }
 .single-testimonial h5{
@@ -834,7 +834,7 @@ li.plan-purchase .btn {
   color: #5A5A5A;
   font-weight: bold;
   line-height: 1;
-  text-transform: lowercase;
+  
 }
 #pricing ul.pricing.featured {
   background: #151515; 
