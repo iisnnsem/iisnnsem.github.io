@@ -623,12 +623,14 @@ color:#fff;
 }
 #our-team .team-member .team-img {
   margin: 0;
+  border-radius: 10%;
 }
 #our-team .team-member .team-info { 
   background: #222222;
   color: #F9690E;
   padding: 7px 0;
   border-top: 2px solid #fff;
+  line-height: 1.3;
 } 
 #our-team .team-member:hover .social-icons > li > a {
   color: #F9690E;
