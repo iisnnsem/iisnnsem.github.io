@@ -562,7 +562,7 @@ margin-bottom: 15px;
   background-size: cover;
   padding: 300px 0;
   color: #fff;
-  background: url('../images/img3.jpg');
+  background: url('../images/img2.jpg');
   background-size: cover;
 }
 #testimonial h2{
@@ -588,7 +588,7 @@ margin: 0 8px;
 #about {
   padding: 100px 0;
   background: #07080A;
-  background: url('../images/img2.jpg');    
+  background: url('../images/img3.jpg');    
   background-size: cover;  };
 }
 #about .column-title{
