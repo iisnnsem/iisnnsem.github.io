@@ -691,17 +691,18 @@ color:#fff;
 	opacity: 1;
 	width: 100px;   /* ajuste conforme necessário */
    	height: 100px;  /* opcional, mantém proporção */
+	padding: 10px;
     	
 }
 .single-testimonial h5{
-	padding: 8px 0 0px;
+	padding: 10px 0 10px;
 	font-size: 20px;
 	color: #F9690E;
 	background: transparent;
 }
 
 .single-testimonial h6{
-	padding: 8px 0 0px;
+	padding: 10px 0 10px;
 	font-size: 18px;
 	color: #FFFFFF;
 	background: transparent;
