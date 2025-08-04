@@ -245,34 +245,44 @@
 		  }
 		
 		  table.table {
-		    font-size: 12px !important;
+		    	font-size: 12px !important;
 		  }
 		
 		  .table thead th {
-		    font-size: 12px !important;
-		    padding: 8px !important;
+			    font-size: 12px !important;
+			    padding: 8px !important;
 		  }
 		
 		  .table td {
-		    font-size: 11px !important;
-		    padding: 6px !important;
-		    line-height: 1.4 !important;
-		    word-break: break-word;
+			    font-size: 11px !important;
+			    padding: 6px !important;
+			    line-height: 1.4 !important;
+			    word-break: break-word;
 		  }
 		
 		  .table .activity-special div,
 		  .table .affiliation,
 		  .table .thema {
-		    font-size: 11px !important;
-		    line-height: 1.5 !important;
+			    font-size: 11px !important;
+			    line-height: 1.5 !important;
 		  }
 		
 		  .table-responsive {
-		    overflow-x: auto;
+			    overflow-x: auto;
+			    width: 100%;
 		  }
 		
 		  .activity-special, .activity-break, .activity {
-		    word-wrap: break-word;
+		  	  word-wrap: break-word;
+		  }
+		  .table {
+			    width: 100%;
+			    min-width: 600px; /* ou menos, dependendo do conteúdo */
+		  }
+
+ 		  .table td, .table th {
+			    white-space: normal; /* permite quebra de linha em células */
+			    word-break: break-word;
 		  }
 	}
 	
