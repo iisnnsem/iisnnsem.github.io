@@ -275,6 +275,8 @@
 	    width: 100%;
 	    display: block;
 	    margin-bottom: 20px;
+            flex: 0 0 100%;
+            max-width: 100%;
 	}
 
 	#pricing .col-sm-6 {
@@ -282,8 +284,13 @@
 	}
 
 	#pricing .col-md-3 {
-		    width: 100%;
+		width: 100%;
 	}
+
+        #pricing .row {
+	      display: flex;
+	      flex-direction: column;
+        }	
 	}
 	
     </style>
