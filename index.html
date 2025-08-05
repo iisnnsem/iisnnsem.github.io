@@ -170,6 +170,33 @@
 	}
 
 	@media (max-width: 768px) {    
+	
+	#main-nav .navbar-collapse {
+	    display: flex !important;
+	    flex-direction: row !important;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+
+  	#main-nav .navbar-nav {
+	    display: flex !important;
+	    flex-direction: row !important;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+
+  	#main-nav .navbar-nav li {
+	    float: none;
+	    display: inline-block;
+	    margin: 5px;
+	}
+
+	#main-nav .navbar-nav li a {
+	    padding: 8px 12px;
+	    font-size: 14px;
+	}	
+		
+		
 	#about .section-title {
             font-size: 24px !important;
   	}
@@ -236,6 +263,23 @@
 	.team-member .team-info span {
 	    	font-size: 12px !important;
 	}
+
+	#speakers .row {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+
+  	#speakers .col-xs-12 {
+	    width: 50% !important;
+	    max-width: 50%;
+	    padding: 10px;
+	}
+
+  	#speakers .team-member {
+	    margin: 0 auto;
+	}
+		
 	#programme .program-title {
 		    font-size: 26px !important;
 		    line-height: 1.6 !important; /* aumenta o espaçamento entre linhas */
@@ -307,26 +351,67 @@
 	}
 		
 	#pricing-title {
-    		font-size: 24px !important;
+    		font-size: 20px !important;
   	}
 	.pricing .price {
-   		font-size: 24px !important;
+   		font-size: 20px !important;
   	}
 
   	.pricing .plan-name {
-   		font-size: 24px !important;
+   		font-size: 20px !important;
  	}
 	#pricing .plan-purchase a.btn {
-	    font-size: 28px;
+	    font-size: 24px;
 	    padding: 14px 28px;
 	}
 	#submit h3 {
 	    font-size: 24px !important;
-	     margint-top: 5px !important;
+	     margint-bottom: 10px !important;
+	}
+
+	#submit ul.listarrow li {
+	    font-size: 14px !important;
+	}
+
+  	#submit .plan-purchase a.btn {
+	    font-size: 18px !important;
+	}
+
+	#portfolio {
+	    padding-top: 20px !important;
+	    padding-bottom: 20px !important;
+	}
+
+ 	#portfolio .container {
+	    padding-top: 10px !important;
+	    padding-bottom: 10px !important;
+	}
+
+  	#portfolio .section-header {
+	    margin-bottom: 10px !important;
 	}
 	#portfolio .section-title {
     	     font-size: 24px !important;
+	     margin-bottom: 10px !important;
   	}
+ 	#contact h3 {
+	    font-size: 24px !important;
+	    margin-bottom: 20px;
+	}
+
+  	#contact address {
+	    font-size: 14px !important;
+	    line-height: 1.5 !important;
+	}
+	#footer .social-icons {
+	    display: flex;
+	    justify-content: center;
+	    margin-top: 10px;
+	}
+
+  	#footer .col-sm-6 {
+	    text-align: center;
+	}
 	}
 	
     </style>
