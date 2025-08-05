@@ -804,7 +804,7 @@ margin: 0;
   margin-bottom: 20px;
 }
 #pricing {
-  padding: 100px 0 70px;
+  padding: 20px 0 20px;
 }
 #pricing ul.pricing {
   list-style: none;
@@ -866,7 +866,7 @@ li.plan-purchase .btn {
   border: 1px solid #D0D0D0;
 }
 #pricing ul.pricing.featured  li.plan-header .price-duration{
-color: #FFFFFF;
+color: #000000;
 }
 #pricing ul.pricing.featured li.plan-header {
   background: #FFFFFF;
