@@ -860,7 +860,7 @@ li.plan-purchase .btn {
   
 }
 #pricing ul.pricing.featured {
-  background: #151515; 
+  background: #B8B8B8;
   border: 0;
   color: #D2D2D2;
   border: 1px solid #D0D0D0;
@@ -869,10 +869,10 @@ li.plan-purchase .btn {
 color: #FFFFFF;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #F9690E;
+  background: #FFFFFF;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #pricing .row {
